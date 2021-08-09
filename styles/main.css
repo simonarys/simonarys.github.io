@@ -1,3 +1,7 @@
+h1, h2 {
+  text-align: center;
+}
+
 h1 {
   font-size: 3.5em;
 }
@@ -50,13 +54,22 @@ a:hover {
   border-bottom: 1px dotted #2b2e33;
 }
 
-#footer-links {
+#footer {
   text-align: center;
+}
+
+#footer-links {
   list-style: none;
 }
 
 #footer-links > li {
+  margin-bottom: 50px;
   display: inline;
   margin: 0 5%;
   font-size: 2.5em;
+}
+
+#footer-code {
+  font-style: normal;
+  color: #111111;
 }
