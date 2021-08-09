@@ -1,0 +1,61 @@
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.1s ease;
+}
+
+a:hover {
+  color: black;
+}
+
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 0.7em;
+}
+
+.nav-button {
+  float: left;
+}
+
+.contact-button {
+  float: right;
+}
+
+.nav-button > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.9em 2em;
+  transition: background-color 0.3s ease;
+  border-radius: 0.7em;
+}
+
+.nav-button > a:hover {
+  background-color: #111111;
+}
+
+#github-link {
+  border-bottom: 1px dotted #2b2e33;
+}
+
+#footer-links {
+  text-align: center;
+  list-style: none;
+}
+
+#footer-links > li {
+  display: inline;
+  margin: 0 1em;
+}
