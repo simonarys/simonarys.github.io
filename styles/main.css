@@ -25,6 +25,18 @@ a:hover {
   color: black;
 }
 
+.section {
+  background-color: #fafafa;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  border-radius: 1em;
+  margin: 10px 10px;
+}
+
+
+
+/* Navigation bar */
+
 #navbar {
   list-style: none;
   margin: 0;
@@ -55,13 +67,9 @@ a:hover {
   background-color: #111111;
 }
 
-.section {
-  background-color: #fafafa;
-  padding-top: 1px;
-  padding-bottom: 50px;
-  border-radius: 1em;
-  margin: 10px 10px;
-}
+
+
+/* Footer section */
 
 #footer {
   text-align: center;
