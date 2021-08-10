@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2 {
   text-align: center;
+  color: #242424;
 }
 
 h1 {
@@ -12,7 +17,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #575757;
   transition: color 0.1s ease;
 }
 
@@ -50,15 +55,29 @@ a:hover {
   background-color: #111111;
 }
 
-#github-link {
-  border-bottom: 1px dotted #2b2e33;
+.section {
+  background-color: #fafafa;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  border-radius: 1em;
+  margin: 10px 10px;
 }
 
 #footer {
   text-align: center;
 }
 
+#email {
+  color: #004fb0;
+  transition: color 0.1s ease;
+}
+
+#email:hover {
+  color: #000000;
+}
+
 #footer-links {
+  margin-top: 50px;
   list-style: none;
   padding: 0;
 }
@@ -73,8 +92,13 @@ a:hover {
   margin-top: 50px;
   display: block;
   font-style: normal;
-  color: #111111;
+  color: #575757;
 }
+
+#github-link {
+  border-bottom: 1px dotted #575757;
+}
+
 
 
 /* Responsive design */
@@ -93,7 +117,7 @@ a:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 475px) {
   .nav-button > a {
     padding: 0.9em 0.75em;
   }
