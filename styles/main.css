@@ -75,3 +75,20 @@ a:hover {
   font-style: normal;
   color: #111111;
 }
+
+
+/* Responsive design */
+
+@media (min-width: 1152px) {
+  body {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-button > a {
+    padding: 0.9em 1em;
+  }
+}
