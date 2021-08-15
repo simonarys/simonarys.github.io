@@ -27,8 +27,13 @@ h3 {
 }
 
 h5 {
-  text-align: left;
   font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: bolder;
 }
 
 a {
@@ -118,6 +123,14 @@ section {
   display: inline-block;
 }
 
+.project-text {
+  text-align: left;
+}
+
+.project-github {
+  float: right;
+}
+
 
 
 /* Education section */
@@ -133,6 +146,10 @@ section {
 .edu-text {
   display: inline-block;
   width: 76%;
+}
+
+.edu-text > h5 {
+  text-align: left;
 }
 
 .logo {
