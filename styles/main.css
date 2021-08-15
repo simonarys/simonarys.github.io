@@ -43,6 +43,12 @@ a:hover {
 
 i {
   color: #575757;
+  font-style: italic;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 section {
@@ -101,10 +107,8 @@ section {
   background-color: #e9e9e9;
   border-radius: 0.7em;
   padding: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  width: 75%;
+  margin: 0 5% 2em 5%;
+  width: inherit;
   display: flex;
   justify-content: left;
   align-items: center;
