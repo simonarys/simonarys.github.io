@@ -228,6 +228,10 @@ section {
   .nav-button > a {
     padding: 0.9em 1em;
   }
+  .project-box {
+    width: inherit;
+    margin: 0 5% 2em 5%;
+  }
 }
 
 @media (max-width: 475px) {
@@ -239,6 +243,13 @@ section {
 @media (max-width: 400px) {
   .nav-button > a {
     padding: 0.9em 0.5em;
+  }
+  .edu-box {
+    flex-direction: column;
+  }
+  .credentials {
+    float: left;
+    display: block;
   }
 }
 
