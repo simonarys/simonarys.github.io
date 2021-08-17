@@ -113,7 +113,7 @@ section {
 
 
 /* Personal Projects section */
-#personal-projects-list {
+.projects-list {
   text-align: center;
 }
 
