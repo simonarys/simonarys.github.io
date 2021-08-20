@@ -36,6 +36,13 @@ h6 {
   font-weight: bolder;
 }
 
+small {
+  font-size: 1.6em;
+  font-style: normal;
+  color: #575757;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 a {
   text-decoration: none;
   color: #575757;
@@ -109,6 +116,23 @@ section {
 
 .nav-button > a:hover {
   background-color: #111111;
+}
+
+
+
+/* Header section*/
+.line {
+  background-color: #757575;
+  margin: 15px;
+  width: 115px;
+  height: 2px;
+}
+.header-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35em;
+  margin: auto;
 }
 
 
@@ -277,6 +301,15 @@ section {
     width: inherit;
     margin: 0 5% 2em 5%;
   }
+  .header-box {
+    width: 100%;
+  }
+  small {
+    font-size: 1.4em;
+  }
+  .line {
+    width: 90px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -285,6 +318,12 @@ section {
   }
   .perso-project-preview {
     height: 10em;
+  }
+  small {
+    font-size: 1.25em;
+  }
+  .line {
+    width: 70px;
   }
 }
 
@@ -301,6 +340,12 @@ section {
   }
   .perso-project-preview {
     height: 8em;
+  }
+  small {
+    font-size: 1.1em;
+  }
+  .line {
+    width: 50px;
   }
 }
 
