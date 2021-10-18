@@ -83,6 +83,33 @@ section {
   margin: 2%;
 }
 
+.rectangle-box {
+  margin: 0 5% 2em 5%;
+  width: inherit;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.rectangle-box-text {
+  display: inline-block;
+  width: 76%;
+}
+
+.rectangle-box-text > h5 {
+  text-align: left;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: 50%;
+  width: 6em;
+  height: auto;
+  border-radius: 0.7em;
+  box-shadow: 1px 1px 3px #111111;
+  margin-right: 1em;
+}
+
 
 
 /* Navigation bar */
@@ -121,6 +148,7 @@ section {
 
 
 /* Header section*/
+
 .line {
   background-color: #757575;
   margin: 15px;
@@ -138,6 +166,7 @@ section {
 
 
 /* PROJECTS */
+
 .projects-list {
   text-align: center;
   display: flex;
@@ -176,6 +205,7 @@ section {
 
 
 /* University Projects section */
+
 .uni-project-box {
   margin-bottom: 1em;
   width: 16em;
@@ -203,33 +233,6 @@ section {
 
 
 /* Education section */
-
-.edu-box {
-  margin: 0 5% 2em 5%;
-  width: inherit;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.edu-text {
-  display: inline-block;
-  width: 76%;
-}
-
-.edu-text > h5 {
-  text-align: left;
-}
-
-.logo {
-  display: inline-block;
-  vertical-align: 50%;
-  width: 6em;
-  height: auto;
-  border-radius: 0.7em;
-  box-shadow: 1px 1px 3px #111111;
-  margin-right: 1em;
-}
 
 .credentials {
   float: right;
