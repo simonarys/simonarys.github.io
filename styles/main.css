@@ -78,8 +78,8 @@ section {
   right: 30px;
   font-size: 35px;
   border: none;
-  border-radius: 10px;;
-  background-color: #fafafa;
+  border-radius: 10px;
+  background-color: transparent;
   color: #575757;
   cursor: pointer;
   transition: color 0.2s ease;
@@ -365,9 +365,9 @@ section {
     width: 70px;
   }
     #scrollBackButton {
-    bottom: 0px;
-    right: 0px;
-    font-size: 15px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 25px;
   }
 }
 
@@ -389,6 +389,6 @@ section {
     font-size: 1.1em;
   }
   .line {
-    width: 50px;
+    width: 40px;
   }
 }
