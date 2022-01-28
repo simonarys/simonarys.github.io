@@ -71,6 +71,24 @@ section {
   margin: 20px 10px;
 }
 
+#scrollBackButton {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;;
+  background-color: #fafafa;
+  color: #575757;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#scrollBackButton:hover {
+  color: black;
+}
+
 .space-above {
   margin-top: 3.5em;
 }
@@ -270,6 +288,7 @@ section {
   display: inline;
   margin: 0 5%;
   font-size: 2.5em;
+  transition: color 0.1s ease;
 }
 
 #footer-code {
@@ -288,11 +307,28 @@ section {
 
 /* Responsive design */
 
+@media (max-width: 1250px) {
+  #scrollBackButton {
+    bottom: 15px;
+    right: 10px;
+  }
+}
+
 @media (min-width: 1152px) {
   body {
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 740px) {
+  .edu-text {
+    width: 100%;
+  }
+  #scrollBackButton {
+    bottom: 10px;
+    right: 2px;
   }
 }
 
@@ -328,6 +364,11 @@ section {
   .line {
     width: 70px;
   }
+    #scrollBackButton {
+    bottom: 0px;
+    right: 0px;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -349,11 +390,5 @@ section {
   }
   .line {
     width: 50px;
-  }
-}
-
-@media (max-width: 740px) {
-  .edu-text {
-    width: 100%;
   }
 }
