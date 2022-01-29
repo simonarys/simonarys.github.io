@@ -71,24 +71,6 @@ section {
   margin: 20px 10px;
 }
 
-#scrollBackButton {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  font-size: 35px;
-  border: none;
-  border-radius: 10px;
-  background-color: transparent;
-  color: #575757;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-
-#scrollBackButton:hover {
-  color: black;
-}
-
 .space-above {
   margin-top: 3.5em;
 }
@@ -126,6 +108,24 @@ section {
   border-radius: 0.7em;
   box-shadow: 1px 1px 3px #111111;
   margin-right: 1em;
+}
+
+#scrollBackButton {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #575757;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#scrollBackButton:hover {
+  color: black;
 }
 
 
@@ -195,6 +195,21 @@ section {
 .project-text {
   text-align: left;
 }
+
+.static {
+  position: absolute;
+  background: white;
+}
+
+.activeOnHover:hover .static{
+  opacity: 0;
+}
+
+.activeOnHover:hover .active{
+  border-color: #111111;
+}
+
+
 
 
 
