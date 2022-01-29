@@ -201,15 +201,13 @@ section {
   background: white;
 }
 
-.activeOnHover:hover .static{
+.active-on-hover:hover .static{
   opacity: 0;
 }
 
-.activeOnHover:hover .active{
+.active-on-hover:hover .active{
   border-color: #111111;
 }
-
-
 
 
 
