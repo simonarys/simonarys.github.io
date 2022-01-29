@@ -128,6 +128,18 @@ section {
   color: black;
 }
 
+.box-img {
+  border-radius: 0.7em;
+  border: 2px solid;
+  border-color: #e9e9e9;
+  box-shadow: 1px 1px 3px #111111;
+  transition: border-color 0.2s ease;
+}
+
+.box-img:hover {
+  border-color: #111111;
+}
+
 
 
 /* Navigation bar */
@@ -219,18 +231,9 @@ section {
   display: inline-block;
 }
 
-.perso-project-preview {
-   border-radius: 0.7em;
-   border: 2px solid;
-   border-color: #e9e9e9;
-   box-shadow: 1px 1px 3px #111111;
-   height: 12em;
-   width: auto;
-   transition: border-color 0.2s ease;
-}
-
-.perso-project-preview:hover {
-   border-color: #111111;
+.perso-project-size {
+  height: 12em;
+  width: auto;
 }
 
 
@@ -243,18 +246,9 @@ section {
   display: inline-block;
 }
 
-.uni-project-preview {
-   border-radius: 0.7em;
-   border: 2px solid;
-   border-color: #e9e9e9;
-   box-shadow: 1px 1px 3px #111111;
+.uni-project-size {
    height: 8em;
    width: auto;
-   transition: border-color 0.2s ease;
-}
-
-.uni-project-preview:hover {
-   border-color: #111111;
 }
 
 .no-link:hover {
