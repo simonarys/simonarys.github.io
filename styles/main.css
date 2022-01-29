@@ -155,6 +155,7 @@ section {
 
 .nav-button {
   float: left;
+  cursor: pointer;
 }
 
 .contact-button {
@@ -308,6 +309,47 @@ section {
 
 #github-link {
   border-bottom: 1px dotted #575757;
+}
+
+
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 7vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  margin: auto;
+  width: 80%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+#resume-pdf {
+  border-radius: 0.7em;
+  height: 80vh;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19);
 }
 
 
