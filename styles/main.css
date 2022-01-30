@@ -5,7 +5,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #242424;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Sansita;
   padding: 0;
   margin: 0;
 }
@@ -36,6 +36,10 @@ h6 {
   font-weight: bolder;
 }
 
+p, i, a {
+  font-family: Galdeano;
+}
+
 small {
   font-size: 1.6em;
   font-style: normal;
@@ -47,6 +51,7 @@ a {
   text-decoration: none;
   color: #575757;
   transition: color 0.1s ease;
+  font-family: Galdeano;
 }
 
 a:hover {
@@ -166,10 +171,11 @@ section {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.9em 2em;
+  padding: 0.8em 2em;
   transition: background-color 0.3s ease;
   border-radius: 0.7em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Galdeano;
+  font-size: 1.15em;
 }
 
 .nav-button > a:hover {
@@ -309,6 +315,7 @@ section {
 
 #github-link {
   border-bottom: 1px dotted #575757;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
