@@ -1,6 +1,6 @@
 /* Scroll Back Button */
 
-const scrollBackButton = document.getElementById("scrollBackButton");
+const scrollBackButton = document.getElementById("scroll-back-button");
 
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {

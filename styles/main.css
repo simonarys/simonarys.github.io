@@ -115,7 +115,7 @@ section {
   margin-right: 1em;
 }
 
-#scrollBackButton {
+#scroll-back-button {
   display: none;
   position: fixed;
   bottom: 30px;
@@ -129,7 +129,7 @@ section {
   transition: color 0.2s ease;
 }
 
-#scrollBackButton:hover {
+#scroll-back-button:hover {
   color: black;
 }
 
@@ -364,7 +364,7 @@ section {
 /* Responsive design */
 
 @media (max-width: 1250px) {
-  #scrollBackButton {
+  #scroll-back-button {
     bottom: 15px;
     right: 10px;
   }
@@ -382,7 +382,7 @@ section {
   .edu-text {
     width: 100%;
   }
-  #scrollBackButton {
+  #scroll-back-button {
     bottom: 10px;
     right: 2px;
   }
@@ -420,7 +420,7 @@ section {
   .line {
     width: 70px;
   }
-    #scrollBackButton {
+    #scroll-back-button {
     bottom: 10px;
     right: 10px;
     font-size: 25px;
