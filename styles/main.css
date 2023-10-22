@@ -5,17 +5,19 @@ html {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #242424;
-  font-family: Sansita;
+  font-family: 'Montserrat', sans-serif;;
   padding: 0;
   margin: 0;
 }
 
 h1, h2, h3 {
   margin: 0.5em 0;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 3.5em;
+  font-weight: 600;
 }
 
 h2 {
@@ -37,7 +39,7 @@ h6 {
 }
 
 p, i, a {
-  font-family: Galdeano;
+  font-family: 'Nunito', sans-serif;
 }
 
 small {
@@ -51,7 +53,7 @@ a {
   text-decoration: none;
   color: #575757;
   transition: color 0.1s ease;
-  font-family: Galdeano;
+  font-family: 'Nunito', sans-serif;
 }
 
 a:hover {
@@ -69,11 +71,14 @@ ul {
 }
 
 section {
-  background-color: #fafafa;
   padding-top: 1px;
   padding-bottom: 50px;
-  border-radius: 1em;
-  margin: 20px 10px;
+  border-radius: 2em;
+  margin: 5% 10px;
+}
+
+.section-bg {
+  background-color: #f5f5f4;
 }
 
 .space-above {
@@ -158,11 +163,11 @@ section {
 
 #navbar {
   list-style: none;
-  margin: 0;
+  margin: 3% 0 3% 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  border-radius: 0.7em;
+  border-radius: 2em;
 }
 
 .nav-button {
@@ -181,12 +186,18 @@ section {
   padding: 0.8em 2em;
   transition: background-color 0.3s ease;
   border-radius: 0.7em;
-  font-family: Galdeano;
-  font-size: 1.15em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .nav-button > a:hover {
   background-color: #111111;
+}
+
+.nav-icon {
+  color: white;
+  font-weight: 100 !important;
 }
 
 
@@ -219,7 +230,7 @@ section {
 }
 
 .project-text {
-  text-align: left;
+  text-align: center;
 }
 
 .static {
@@ -279,7 +290,7 @@ section {
 
 .from-ucl {
   font-weight: normal;
-  font-family: Galdeano;
+  font-family: 'Nunito', sans-serif;
 }
 
 
@@ -304,15 +315,19 @@ section {
   color: #000000;
 }
 
+#email-icon {
+  font-size: 2em;
+}
+
 #footer-links {
-  margin-top: 50px;
+  margin-top: 20px;
   list-style: none;
   padding: 0;
 }
 
 #footer-links > li {
   display: inline;
-  margin: 0 5%;
+  margin: 0 4%;
   font-size: 2.5em;
   transition: color 0.1s ease;
 }
@@ -398,11 +413,18 @@ section {
     bottom: 10px;
     right: 2px;
   }
+  .nav-icon {
+    color: red;
+    display: none !important;
+  }
+  .nav-button > a {
+    padding: 0.8em 1.5em;
+  }
 }
 
 @media (max-width: 600px) {
   .nav-button > a {
-    padding: 0.9em 1em;
+    padding: 0.8em 1em;
   }
   .perso-project-box {
     width: inherit;

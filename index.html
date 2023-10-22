@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="styles/main.css">
 
     <!-- Icon library -->
-    <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/brands.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/solid.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/v4-shims.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/v4-shims.min.css">
 
     <!-- Fonts -->
-    <link rel='stylesheet' href='vendor/google_fonts/css/galdeano.css'>
-    <link rel='stylesheet' href='vendor/google_fonts/css/sansita.css'>
+    <link rel='stylesheet' href='vendor/google_fonts/css/montserrat.css'>
+    <link rel='stylesheet' href='vendor/google_fonts/css/nunito.css'>
 
     <meta property="og:title" content="Simon Arys">
     <meta property="og:url" content="https://simonarys.be">
@@ -29,15 +29,15 @@
   <!-- Body -->
   <body>
 
-    <button onclick="scrollBack()" id="scroll-back-button" class="fa fa-arrow-up"></button>
+    <button onclick="scrollBack()" id="scroll-back-button" class="fa fa-arrow-alt-circle-up"></button>
 
     <!-- Navigation bar -->
     <ul id="navbar">
-      <li class="nav-button"><a href="#">Home</a></li>
-      <li class="nav-button"><a href="#projects-section">Projects</a></li>
-      <li class="nav-button"><a id="open-modal">Resume</a></li>
+      <li class="nav-button"><a href="#projects-section"><i class="fa fa-folder nav-icon"></i> Projects</a></li>
+      <li class="nav-button"><a href="#education-section"><i class="fa fa-user nav-icon"></i> Education</a></li>
+      <li class="nav-button"><a id="open-modal"><i class="fa fa-file-pdf nav-icon"></i> Resume</a></li>
 
-      <li class="nav-button contact-button"><a href="#contact-section">Contact me</a></li>
+      <li class="nav-button contact-button"><a href="#contact-section"><i class="fa fa-envelope nav-icon"></i> Contact me</a></li>
     </ul>
 
     <!-- Header -->
@@ -51,7 +51,7 @@
     </section>
 
     <!-- Experience -->
-    <section id="experience-section">
+    <section id="experience-section" class="section-bg">
       <h2>Experience</h2>
       <ul>
         <li class="rectangle-box box">
@@ -66,7 +66,7 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects-section">
+    <section id="projects-section" class="section-bg">
       <h2>Projects</h2>
 
       <h3>Personal Projects / Hackathons</h3>
@@ -360,7 +360,7 @@
     </section>
 
     <!-- Education -->
-    <section id="education-section">
+    <section id="education-section" class="section-bg">
       <h2>Education</h2>
 
       <h3>School</h3>
@@ -441,11 +441,12 @@
 
     <!-- Footer -->
     <section id="footer">
-      <section id="contact-section">
+      <section id="contact-section" class="section-bg">
         <h2>Contact me</h2>
         <a href="mailto:contact@simonarys.be" id="email">contact@simonarys.be</a>
         <ul id="footer-links">
           <li><a href="https://www.linkedin.com/in/simon-arys/" target="_blank" class="fa fa-linkedin"></a></li>
+          <li><a href="mailto:contact@simonarys.be" class="fa fa-envelope"></a></li>
           <li><a href="https://github.com/simonarys" target="_blank" class="fa fa-github"></a></li>
           <li><a href="https://stackoverflow.com/users/13744910/simonarys" class="fa fa-stack-overflow" target="_blank"></a></li>
         </ul>
