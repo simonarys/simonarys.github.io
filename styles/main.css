@@ -231,10 +231,13 @@ section {
 /* PROJECTS */
 
 .projects-list {
+  display: grid;
+  margin: auto;
+  width: fit-content;
   text-align: center;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 1em;
 }
 
 .project-text {
@@ -269,18 +272,22 @@ section {
   width: auto;
 }
 
+#roadbook-box {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
 
 
 /* University Projects section */
 
 .uni-project-box {
   margin-bottom: 1em;
-  width: 16em;
+  width: 22em;
   display: inline-block;
 }
 
 .uni-project-size {
-   height: 8em;
+   height: 10em;
    width: auto;
 }
 
@@ -419,6 +426,23 @@ section {
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 1130px) {
+  .roadbook-box {
+    grid-row: 1;
+  }
+  .perso-projects-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 880px) {
+  .uni-projects-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }
 
